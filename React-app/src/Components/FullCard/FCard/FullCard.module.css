@@ -1,0 +1,31 @@
+.card{
+    width: 16rem;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.circle{
+
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.1);
+    margin: 0 0 1.5rem 0 ;
+}
+.icon{
+    font-size: 3.2rem;
+    font-weight: lighter;
+    /* display: flex;
+    justify-content: center; */
+    display: flex;
+    padding-top: 0.8rem;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

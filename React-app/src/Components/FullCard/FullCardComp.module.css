@@ -1,0 +1,12 @@
+.Heading{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+.row{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
