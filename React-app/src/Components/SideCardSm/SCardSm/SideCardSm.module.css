@@ -1,0 +1,41 @@
+.Card {
+  width: 23rem;
+  border: none;
+  padding: 1rem;
+  /* margin-right: -3rem; */
+  /* height: 22rem; */
+  margin-bottom: 2rem;
+
+}
+.circle {
+  width: 77px;
+  height: 77px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.icon {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.2rem;
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #303442;
+  margin-bottom: 0;
+}
+.text{
+  font-family: "Open Sans", sans-serify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #303442;
+}

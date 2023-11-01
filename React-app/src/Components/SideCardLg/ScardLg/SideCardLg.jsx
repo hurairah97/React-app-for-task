@@ -1,21 +1,21 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Object from './SideCardLg.module.css';
-import { FaRegHandshake } from "react-icons/fa6";
+import Object from "./SideCardLg.module.css";
 
-const SideCardLg = () => {
+const SideCardLg = (props) => {
   return (
     <Card className={Object.Card}>
-      <div className={Object.circle}>
-        <span className={Object.icon}><FaRegHandshake/></span>
+      <div className="row">
+        <div className={`col-md-4 ${Object.circle}`} style={{ backgroundColor: props.backColor }}>
+          <span className={Object.icon}>{props.icon}</span>
+        </div>
+        <div className="col-md-8">
+          <Card.Body className="p-0">
+            <Card.Title className={Object.title}>{props.title}</Card.Title>
+            <Card.Text className={Object.text}>{props.desc}</Card.Text>
+          </Card.Body>
+        </div>
       </div>
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </Card.Body>
     </Card>
   );
 };

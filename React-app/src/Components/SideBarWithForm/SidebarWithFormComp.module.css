@@ -1,10 +1,14 @@
 .Heading{
-    font-weight: 1000;
+    font-weight: 700;
     font-family: Poppins, sans-serif;
     font-style: normal;
-    size: 42px;
-    line-height: 48px;
+    font-size: 50px;
+    line-height: 50px;
     color: #273044;
-    text-align: center;
     margin: 5rem 0 4rem 0;
 }
+/* .btn1{
+
+}
+.btn2{
+} */

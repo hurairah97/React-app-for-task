@@ -4,11 +4,16 @@
     padding: 5rem;
 }
 .Heading{
-    font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    size: 36px;
+    line-height: 46px;
+    color: #273044;
     text-align: center;
-    font-size: 2.7rem;
-}
+    margin-bottom: 4rem;
+};
+
   /* @media (max-width: 768px) {
     .Heading {
       font-size: 2rem;

@@ -1,35 +1,43 @@
 .Card {
     background-color: #EEF1F7;
-  width: 26rem;
+  width: 25rem;
   border: none;
-  color: #000000;
   padding: 1rem;
-    
+  /* margin-right: -3rem; */
   /* height: 22rem; */
   margin-bottom: 2rem;
 
 }
 .circle {
-  width: 78px;
-  height: 78px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.1);
-  margin: 0 0 1.5rem 0;
 }
 .icon {
-  font-size: 3.2rem;
+  font-size: 4.5rem;
   font-weight: lighter;
-  /* display: flex;
-        justify-content: center; */
+  color: #ffffff;
   display: flex;
   padding-top: 0.8rem;
-  /* flex-wrap: wrap; */
-  align-items: center;
   justify-content: center;
+  padding-top: 1.7rem;
 }
 
 .title {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #303442;
+  margin-bottom: 0.5rem;
+}
+.text{
+  font-family: "Open Sans", sans-serify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #303442;
 }

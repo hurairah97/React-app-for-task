@@ -1,9 +1,12 @@
 .Heading{
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    size: 42px;
+    line-height: 48px;
+    color: #273044;
     text-align: center;
     margin-top: 5rem;
-    font-size: 3rem;
 }
 .row{
     margin-top: 4rem;
