@@ -6,7 +6,10 @@ const SideCardLg = (props) => {
   return (
     <Card className={Object.Card}>
       <div className="row">
-        <div className={`col-md-4 ${Object.circle}`} style={{ backgroundColor: props.backColor }}>
+        <div
+          className={`col-md-4 ${Object.circle}`}
+          style={{ backgroundColor: props.backColor }}
+        >
           <span className={Object.icon}>{props.icon}</span>
         </div>
         <div className="col-md-8">
