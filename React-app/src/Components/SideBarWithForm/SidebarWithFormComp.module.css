@@ -5,10 +5,15 @@
     font-size: 50px;
     line-height: 50px;
     color: #273044;
-    margin: 5rem 0 4rem 0;
+    /* margin: 5rem 0 4rem 0; */
 }
-/* .btn1{
-
+.btnDiv{
+    display: flex;
+    justify-content: flex-end;
 }
-.btn2{
-} */
+.btn1{
+    border-radius: 20px;
+    height: 3rem;
+    font-size: small;
+    font-weight: bold;
+}
