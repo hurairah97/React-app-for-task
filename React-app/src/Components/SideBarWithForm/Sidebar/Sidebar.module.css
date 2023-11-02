@@ -9,15 +9,12 @@
     font-size: 15px;
     text-transform: none;
     display: block;
-    padding: 10px 0 20px 0;
+    padding: 15px 0 15px 20px;
     background-color: transparent;
     border-radius: 50px;
     font-family: Poppins,sans-serif;
     font-weight: 600;
     transition: all .3s ease 0s;
     text-align: left;
+    cursor: pointer;
 } 
-/* /* .tab li a.current{
-    color: white;
-    background-color: #00b163;
-} */
